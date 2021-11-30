@@ -33,7 +33,7 @@ steps:
     stage: generate_version
     image: codefresh/cli
     commands:
-    - cf_export GITHUB_TOKEN = "${{HELLOSECRETGIT}}"
+    - cf_export GITHUB_TOKEN = "$(HELLOSECRETGIT)"
   
   generate_version:
     title: "Generating semantic release number"
