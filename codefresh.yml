@@ -33,7 +33,7 @@ steps:
     stage: generate_version
     image: 'node'
     commands:
-    - cf_export GITHUB_TOKEN = "$(secrets.HELLOSECRETGIT)"
+    - cf_export GITHUB_TOKEN="$(secrets.HELLOSECRETGIT)"
   
   generate_version:
     title: "Generating semantic release number"
