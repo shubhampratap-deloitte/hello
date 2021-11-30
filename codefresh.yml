@@ -36,7 +36,7 @@ steps:
     image: 'node'
     working_directory: "${{clone}}"
     commands:
-      - cf_export GITHUB_TOKEN= $(secrets.HELLOSECRETGIT)  
+      - cf_export GITHUB_TOKEN= ${{HELLOSECRETGIT}}  
       - npm install @semantic-release/git @semantic-release/changelog -D
       - npx semantic-release
 
