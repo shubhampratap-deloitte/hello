@@ -28,7 +28,7 @@ steps:
     #dockerfile: "Dockerfile"
     #stage: "build"
     
- GetGitToken:
+  GetGitToken:
     title: Reading Github token
     stage: generate_version
     image: codefresh/cli
