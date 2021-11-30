@@ -31,7 +31,7 @@ steps:
   GetGitToken:
     title: Reading Github token
     stage: generate_version
-    image: codefresh/cli
+    image: 'node'
     commands:
     - cf_export GITHUB_TOKEN = "$(HELLOSECRETGIT)"
   
