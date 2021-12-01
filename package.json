@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "commit": "git-cz",
-    "semantic-release": "semantic-release --branches master"
+    "semantic-release": "semantic-release"
   },
   "private": true,
   "dependencies": {
