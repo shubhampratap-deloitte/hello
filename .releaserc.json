@@ -1,7 +1,7 @@
 {
     "branches": [
         "master",
-      { "name": "poc",  "prerelease" : true }
+      { "name": "feat/new-message",  "prerelease" : true }
     ],
   
     "plugins": [
