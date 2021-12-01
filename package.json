@@ -29,7 +29,7 @@
     "@angular/cli": "~13.0.3",
     "@angular/compiler-cli": "~13.0.0",
     "@semantic-release/changelog": "^6.0.1",
-    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/git": "^10.0.1-beta",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
     "cz-conventional-changelog": "^3.3.0",
