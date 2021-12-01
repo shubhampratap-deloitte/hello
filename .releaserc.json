@@ -1,7 +1,7 @@
 {
   "branches": [
-      "master", 
-    { "name": "happy",  "prerelease" : "test" }
+      "master",
+    { "name": "feat/new-message",  "prerelease" : "test" }
   ],
 
   "plugins": [
