@@ -1,8 +1,7 @@
 {
-
   "branches": [
     "master", 
-    { "name": "new-message",  "prerelease" : true }
+    { "name": "master",  "prerelease" : true }
 
   ],
 
@@ -12,4 +11,6 @@
       "@semantic-release/git",
       "@semantic-release/github"
   ]
+
+
 }
