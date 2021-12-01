@@ -1,7 +1,7 @@
 {
   "branches": [
-      "master", 
-    { "name": "new",  "prerelease" : "testing" }
+      "master",
+    { "name": "master",  "prerelease" : "test" }
   ],
 
   "plugins": [
