@@ -1,13 +1,15 @@
 {
-    "branches": [
-        "master",
-      { "name": "master",  "prerelease" : true }
-    ],
-  
-    "plugins": [
-        "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        "@semantic-release/git",
-        "@semantic-release/github"
-    ]
-  }
+
+  "branches": [
+    "master", 
+    { "name": "feat/new-message",  "prerelease" : true }
+
+  ],
+
+  "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/git",
+      "@semantic-release/github"
+  ]
+}
