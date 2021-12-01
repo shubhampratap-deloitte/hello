@@ -1,6 +1,6 @@
 {
   "branches": [
-      "master", 
+      "master",
     { "name": "feat/new-message",  "prerelease" : "test" }
   ],
 
