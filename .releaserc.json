@@ -1,7 +1,7 @@
 {
   "branches": [
     "master", 
-    { "name": "feat/new-message",  "prerelease" : "version1" }
+    { "name": "feat/new-message",  "prerelease" : "version11" }
 
 
   ],
