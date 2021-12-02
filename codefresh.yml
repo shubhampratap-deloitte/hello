@@ -43,7 +43,11 @@ steps:
     working_directory: "${{clone}}"
     commands:
       - npm install @semantic-release/git @semantic-release/changelog -D
-      - npx semantic-release
+      - npx semantic-release > release_tmp
+      - cat release_tmp 
+      - npx semantic-release > .semver-output
+      - cf_export LATEST_VERSION=$(cat .semver-output | grep -w "Found git tag" | awk '{print $9}')
+      - echo $LATEST_VERSION
 
   test:
     title: "Running test"
