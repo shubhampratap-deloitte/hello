@@ -3,6 +3,7 @@
     "master", 
     { "name": "feat/new-message",  "prerelease" : "betaversion" }
 
+
   ],
 
   "plugins": [
