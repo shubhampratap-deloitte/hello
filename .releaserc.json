@@ -1,7 +1,7 @@
 {
   "branches": [
     "master", 
-    { "name": "poc1",  "prerelease" : "poc1" }
+    { "name": "master",  "prerelease" : true }
 
   ],
 
